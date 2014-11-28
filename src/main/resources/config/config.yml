@@ -1,0 +1,15 @@
+# Mule ESB instance particulars
+host: "localhost"
+port: 8080
+usessl: false
+username: "admin"
+password: "indigo1"
+#Start optional parameters
+#   proxyHost:""
+#   proxyPort:
+#   proxyUsername:""
+#   proxyPassword:""
+#End optional parameters
+
+#prefix used to show up metrics in AppDynamics
+metricPrefix:  "Custom Metrics|Adeptia|"

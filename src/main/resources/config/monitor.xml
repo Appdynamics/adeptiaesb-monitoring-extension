@@ -1,0 +1,23 @@
+    <monitor>
+        <name>AdeptiaESBMonitor</name>
+        <type>managed</type>
+        <description>Adeptia ESB monitor</description>
+        <monitor-configuration></monitor-configuration>
+        <monitor-run-task>
+            <execution-style>periodic</execution-style>
+            <execution-frequency-in-seconds>60</execution-frequency-in-seconds>
+            <name>AdeptiaESB Monitor Run Task</name>
+            <display-name>Adeptia ESB Monitor Task</display-name>
+            <description>Adeptia ESB Monitor Task</description>
+            <type>java</type>
+            <execution-timeout-in-secs>60</execution-timeout-in-secs>
+            <task-arguments>
+                <!-- config file-->
+                <argument name="config-file" is-required="true" default-value="monitors/AdeptiaESBMonitor/config.yml" />
+            </task-arguments>
+            <java-task>
+                    <classpath>adeptiaesb-monitoring-extension.jar</classpath>
+                    <impl-class>com.appdynamics.monitors.adeptiaesb.AdeptiaESBMonitor</impl-class>
+            </java-task>
+        </monitor-run-task>
+</monitor>
