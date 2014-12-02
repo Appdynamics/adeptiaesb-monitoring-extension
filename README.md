@@ -87,6 +87,9 @@ Note : Please make sure not to use tab (\t) while editing yaml files. You can va
 * {Host}|{Post}|Network Link
 * {Host}|{Post}|Status
 
+For more information on metrics, please visit MONITORING ADEPTIA SUITE PERFORMANCE section of http://www.adeptia.com/products/download/Admin_Guide.pdf 
+
+
 ## Custom Dashboard
 ![](https://raw.githubusercontent.com/Appdynamics/adeptiaesb-monitoring-extension/master/AdeptiaESB.png)
 
