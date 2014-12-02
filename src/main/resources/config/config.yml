@@ -1,4 +1,4 @@
-# Mule ESB instance particulars
+# Adeptia ESB instance particulars
 host: "localhost"
 port: 8080
 usessl: false
