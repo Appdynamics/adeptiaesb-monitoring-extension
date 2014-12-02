@@ -59,33 +59,33 @@ Note : Please make sure not to use tab (\t) while editing yaml files. You can va
 ###Kernel and Webrunner metrics
 
 ####Database Matrix
-*{Host}|Database Matrix|{log/repository}|Active Connection Count
-*{Host}|Database Matrix|{log/repository}|Idle Connection Count
-*{Host}|Database Matrix|{log/repository}|Status
+* {Host}|Database Matrix|{log/repository}|Active Connection Count
+* {Host}|Database Matrix|{log/repository}|Idle Connection Count
+* {Host}|Database Matrix|{log/repository}|Status
 
 ####JVM GC Matrix
-*{Host}|JVM GC Matrix|{GC Name}|Garbage Collections
-*{Host}|JVM GC Matrix|{GC Name}|Total Time Spent(In millis)
+* {Host}|JVM GC Matrix|{GC Name}|Garbage Collections
+* {Host}|JVM GC Matrix|{GC Name}|Total Time Spent(In millis)
 
 ####JVM Memory Matrix
-*{Host}|JVM Memory Matrix|Heap/Non Heap Memory|Committed Memory
-*{Host}|JVM Memory Matrix|Heap/Non Heap Memory|Init Memory
-*{Host}|JVM Memory Matrix|Heap/Non Heap Memory|Max Memory
-*{Host}|JVM Memory Matrix|Heap/Non Heap Memory|Used Memory
+* {Host}|JVM Memory Matrix|Heap/Non Heap Memory|Committed Memory
+* {Host}|JVM Memory Matrix|Heap/Non Heap Memory|Init Memory
+* {Host}|JVM Memory Matrix|Heap/Non Heap Memory|Max Memory
+* {Host}|JVM Memory Matrix|Heap/Non Heap Memory|Used Memory
 
 ####Jvm Thread Matrix
-*{Host}|Jvm Thread Matrix|Live Thread Count
-*{Host}|Jvm Thread Matrix|Peak Thread Count
-*{Host}|Jvm Thread Matrix|Thread Deadlock Count
+* {Host}|Jvm Thread Matrix|Live Thread Count
+* {Host}|Jvm Thread Matrix|Peak Thread Count
+* {Host}|Jvm Thread Matrix|Thread Deadlock Count
 
 ####Processflow
-*{Host}|Processflow|Queued
-*{Host}|Processflow|Running
-*{Host}|Processflow|Waiting
+* {Host}|Processflow|Queued
+* {Host}|Processflow|Running
+* {Host}|Processflow|Waiting
 
 ###Cluster metrics
-*{Host}|{Post}|Network Link
-*{Host}|{Post}|Status
+* {Host}|{Post}|Network Link
+* {Host}|{Post}|Status
 
 ## Custom Dashboard
 ![]()
