@@ -88,7 +88,7 @@ Note : Please make sure not to use tab (\t) while editing yaml files. You can va
 * {Host}|{Post}|Status
 
 ## Custom Dashboard
-![]()
+![](https://raw.githubusercontent.com/Appdynamics/adeptiaesb-monitoring-extension/master/AdeptiaESB.png)
 
 ##Contributing
 
